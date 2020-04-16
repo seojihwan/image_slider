@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import "./App.css";
+import "./App.scss";
 import data from "./data/data";
 import Slide from "./Slide";
 class App extends Component {
@@ -41,7 +41,7 @@ class App extends Component {
 
         <div className="page">
           <div className="col">
-            <div className={`active-slide-${property.idx}`}>
+            <div className={`slider active-slide-${property.idx}`}>
               <div
                 className="slider-wrapper"
                 style={{
